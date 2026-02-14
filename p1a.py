@@ -3,7 +3,7 @@ from scipy.special import exp1
 import time
 import matplotlib.pyplot as plt
 
-def direct_solve(N: int, h: float, rho: float, x: float, y: float):
+def direct_solve(N, h, rho, x, y):
     V = 0.0
     G = 0.0
     for i in range(N+1):
