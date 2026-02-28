@@ -1,1 +1,10 @@
-1a. 
+1a. The algorithmic complexity of the left rectangle rule is N^4
+
+1b. By transforming the convolution of rho and G into the Fourier domain, it can be shown that 
+the problem is simplified into a simple multiplication of the transformed rho and G functions. 
+We can then take the inverse Fourier transform to get the convolved function back into real 
+space. The algorithmic complexity of the FFT on the convolution Since the problem is not periodic, 
+like the problem states, we need to have periodic/Von Neumann boundary conditions. 
+
+
+
